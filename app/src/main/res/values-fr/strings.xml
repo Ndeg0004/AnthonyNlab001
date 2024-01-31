@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello_World"> Bonjor le monde</string>
+    <string name="button_text">je suis un button!"</string>
+</resources>
