@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--main -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<!-- row 1 -->
+
+    <!-- row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/switch_text"
+            android:text="@string/love"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imagebutton"
+            android:layout_width="188dp"
+            android:layout_height="134dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/flag"
+            tools:ignore="ObsoleteLayoutParam,VisualLintBounds" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:text="@string/switch_text"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+    <!--row 3-->
+
+    <CheckBox
+
+        android:id="@+id/checkBox"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+
+        android:minWidth="34dp"
+        android:minHeight="60dp"
+        android:padding="9dp"
+        android:text="@string/checkBx" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="134dp"
+            android:layout_height="65dp"
+            android:text="@string/PressB" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf">
+        <!-- row 4 -->
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="366dp"
+        android:layout_height="59dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/androidLove"
+        tools:ignore="LabelFor" />
+
+
+</LinearLayout>

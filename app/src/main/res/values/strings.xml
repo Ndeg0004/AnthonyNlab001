@@ -1,5 +1,11 @@
 <resources>
+
     <string name="app_name">AndriodLabs</string>
-    <string name="Hello_World">Hello World</string>
-    <string name="button_text">I\'m  a button!!</string>
+    <string name="love">I Love Androids</string>
+    <string name="androidLove">I Love androids</string>
+    <string name="PressB">Press Me</string>
+    <string name="checkBx">Check this out!</string>
+    <string name="todo">TODO</string>
+    <string name="switch_text">Switch on/off</string>
+    <string name="toast_message">Label has been updated.</string>
 </resources>
