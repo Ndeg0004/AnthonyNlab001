@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Laboratoire 03</string>
     <string name="enter">Entrez votre nom</string>
-    <string name="dont">Ne m'appelez pas comme ça !</string>
+    <string name="dont">Ne m\'appelez pas comme ça !</string>
     <string name="welcome_placeholder">Bienvenue !</string>
     <string name="thank">Merci</string>
     <string name="name">NOM</string>

@@ -70,11 +70,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == NAME_REQUEST_CODE) {
             if (resultCode == 0) {
-                // User wants to change their name
-                // Handle this case as needed
             } else if (resultCode == 1) {
-                // User is happy
-                // Handle this case as needed
-            }
 
+            }
         }}}
