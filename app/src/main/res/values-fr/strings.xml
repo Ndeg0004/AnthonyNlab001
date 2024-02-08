@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Application Android</string>
-    <string name="PressB">presse-moi</string>
-    <string name = "love">J\'aime les androïdes</string>
-    <string name="toastM">Le label a été mis à jour.</string>
-    <string name="checkBx">Cochez ceci !</string>
-    <string name="todo">FAIRE</string>
-    <string name="switch_text">Allumer / éteindre</string>
-    <string name="toast_message">Le libellé a été mis à jour.</string>
+    <string name ="enter">Enter your name</string>
+
 
 </resources>

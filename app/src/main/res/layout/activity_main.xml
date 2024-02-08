@@ -4,15 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include
-        layout="@layout/activity_main_contraint"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="0dp">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="141dp"
+        android:layout_height="57dp"
+        android:text="@string/next"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp" />
 
-    </include>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="304dp"
+        android:layout_height="32dp"
+        android:text="@string/enter"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
 
+    <EditText
+        android:layout_width="367dp"
+        android:layout_height="46dp"
+        android:hint="Missing something....."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="178dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

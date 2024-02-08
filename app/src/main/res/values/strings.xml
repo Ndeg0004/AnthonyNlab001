@@ -1,11 +1,7 @@
 <resources>
-
-    <string name="app_name">AndriodLabs</string>
-    <string name="love">I Love Androids</string>
-    <string name="androidLove">I Love androids</string>
-    <string name="PressB">Press Me</string>
-    <string name="checkBx">Check this out!</string>
-    <string name="todo">TODO</string>
-    <string name="switch_text">Switch on/off</string>
-    <string name="toast_message">Label has been updated.</string>
+    <string name="enter">Enter your name</string>
+    <string name="dont">Don\'t call me that!</string>
+    <string name="welcome">Welcome !</string>
+    <string name="thank">Thank You</string>
+    <string name="next">NEXT</string>
 </resources>
