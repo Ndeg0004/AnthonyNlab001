@@ -1,7 +1,9 @@
 <resources>
+    <string name="app_name">Lab 03</string>
     <string name="enter">Enter your name</string>
     <string name="dont">Don\'t call me that!</string>
-    <string name="welcome">Welcome !</string>
+    <string name="welcome_placeholder">Welcome !</string>
     <string name="thank">Thank You</string>
+    <string name="name">NAME</string>
     <string name="next">NEXT</string>
 </resources>

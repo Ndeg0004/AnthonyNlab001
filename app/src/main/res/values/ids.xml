@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
     <resources>
-        <item name="editText" type="id" />
-        <item name="switch1" type="id" />
-        <item name="button" type="id" />
-        <item name="checkbox" type="id" />
-        <item name="imageButton" type="id" />
+        <item name="missingView" type="id" />
+        <item name="youButton" type="id" />
+
+
 
 
     </resources>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Application Android</string>
-    <string name ="enter">Enter your name</string>
-
-
+    <string name="app_name">Laboratoire 03</string>
+    <string name="enter">Entrez votre nom</string>
+    <string name="dont">Ne m'appelez pas comme ça !</string>
+    <string name="welcome_placeholder">Bienvenue !</string>
+    <string name="thank">Merci</string>
+    <string name="name">NOM</string>
+    <string name="next">SUIVANT</string>
 </resources>
