@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 String enteredName = editText.getText().toString();
                 Intent intent = new Intent(MainActivity.this, NameActivity.class);
                 intent.putExtra("name", enteredName);
-                nameActivityResultLauncher.launch(intent);
+                startActivityForResult(intent, NAME_REQUEST_CODE);
 
             }
 
@@ -70,7 +72,9 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == NAME_REQUEST_CODE) {
             if (resultCode == 0) {
+                Toast.makeText(this, "change your name", Toast.LENGTH_SHORT).show();
             } else if (resultCode == 1) {
-
+                Toast.makeText(this, "OK with name", Toast.LENGTH_SHORT).show();
+                finishAffinity();
             }
         }}}
