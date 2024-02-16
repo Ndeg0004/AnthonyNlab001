@@ -31,21 +31,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:hint="Type Here" />
+                android:hint="@string/Type_Here" />
 
             <Switch
                 android:id="@+id/switchUrgent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Urgent" />
+                android:text="@string/urgent"/>
 
             <Button
                 android:id="@+id/buttonAddTodo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Add" />
+                android:text="@string/add" />
         </LinearLayout>
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

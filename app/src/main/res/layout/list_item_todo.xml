@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ListItemTodoActivity">
 
+    <TextView
+        android:id="@+id/textViewTodo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:padding="5dp"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

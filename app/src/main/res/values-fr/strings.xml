@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- French translations -->
+    <string name="app_name">Laboratoire 04</string>
+    <string name="urgent">Urgente</string>
+    <string name="add">Ajouter</string>
+    <string name="Type_Here">Tapez ici</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
 
 </resources>
