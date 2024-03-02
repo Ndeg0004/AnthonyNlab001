@@ -7,12 +7,12 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\antho\.android\avd\Pixel_4_API_UpsideDownCakePrivacySandbox.avd" />
+            <value value="C:\Users\antho\.android\avd\Android_TV_1080p_API_34.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2024-02-16T03:34:05.804832300Z" />
+    <timeTargetWasSelectedWithDropDown value="2024-03-01T11:29:27.853359400Z" />
     <targetsSelectedWithDialog>
       <Target>
         <type value="QUICK_BOOT_TARGET" />
