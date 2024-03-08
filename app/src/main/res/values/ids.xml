@@ -2,8 +2,7 @@
     <resources>
         <item name="missingView" type="id" />
         <item name="youButton" type="id" />
-
-
+        <item name="fragment_container" type="id" />
 
 
     </resources>
