@@ -33,7 +33,6 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <!-- Add space for the joke text -->
         <TextView
             android:id="@+id/dad_joke_text_view"
             android:layout_width="match_parent"
