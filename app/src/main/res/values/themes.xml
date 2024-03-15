@@ -1,8 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AndriodLabs" parent="Theme.Material3.DayNight.NoActionBar">
 
-    </style>
+        <!-- Define string resources -->
+        <string name="open">Open Drawer</string>
+        <string name="close">Close Drawer</string>
 
-    <style name="Theme.AndriodLabs" parent="Base.Theme.AndriodLabs" />
-</resources>
+        <!-- Define the main AppTheme -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <!-- Overlay theme for popups -->
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    </resources>
